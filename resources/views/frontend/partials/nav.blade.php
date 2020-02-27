@@ -58,6 +58,8 @@
                                                     <li><a href="{{ route('volunteers') }}">Volunteers</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="{{ route('about') }}">About EHF</a></li>
+
                                             <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
                                     </div>
@@ -157,7 +159,7 @@
                         <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu4">
                             <li class="panel-outer">
                                 <div class="form-container">
-                                    <form method="post" action="http://steelthemes.com/demo/html/Goodsoul_html/blog.html">
+                                    <form method="post" action="http://steelthemes.com/demo/html/EqualHopeFoundation_html/blog.html">
                                         <div class="form-group">
                                             <input type="search" name="field-name" value="" placeholder="Search...." required="">
                                             <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>

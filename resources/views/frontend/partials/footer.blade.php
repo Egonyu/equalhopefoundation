@@ -7,7 +7,7 @@
                     <div class="col-lg-3 col-md-6 about-widget-two footer-widget">
                         <h4 class="widget-title">About</h4>
                         <div class="text">The great explorer of the truth, theat master builders off human happiness no one rejects, dislikes, or avoids all pleasures itself, because it pleasures rationally encounter.</div>
-                        <div class="logo"><a href="{{ route('/') }}"><img src=" {{ asset('frontend/images/logo-2.#ffbf00') }} " alt=""></a></div>
+                        <div class="logo"><a href="{{ route('home') }}"><img src=" {{ asset('frontend/images/logo-2.#ffbf00') }} " alt=""></a></div>
                     </div>
                     <!-- Link Widget -->
                     <div class="col-lg-3 col-md-6 link-widget-two footer-widget">
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="footer-bottom-two">
-                <div class="copy-right-text"><a href="{{ route('/') }}">Home</a><a class="theme-color-two" href="{{ route('about') }}">EqualHopeFoundation.</a></div>
+                <div class="copy-right-text"><a href="{{ route('home') }}">Home</a><a class="theme-color-two" href="{{ route('about') }}">EqualHopeFoundation.</a></div>
             </div>
         </div>
         <!--Scroll to top-->
