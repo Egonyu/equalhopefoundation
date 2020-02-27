@@ -13,3 +13,5 @@
 <script src="frontend/js/jquery.countdown.min.js"></script>
 <!-- Custom JS -->
 <script src="frontend/js/script.js"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyDv7miK6LaSgq474pWcxkTXYwLFmEkQrCc"></script>
+<script src="{{ asset('frontend/js/map-script.js') }}"></script>

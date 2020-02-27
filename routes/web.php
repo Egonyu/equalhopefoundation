@@ -16,7 +16,7 @@
 // });
 
 Route::get('/', function(){
-    return view('frontend.master');
+    return view('frontend.body');
 })->name('home');
 
 Route::get('education', 'PagesController@education')->name('education');

@@ -3,8 +3,8 @@
 <meta charset="utf-8">
 <title>Equal Hope Foundation</title>
 
-<link rel="shortcut icon" href=" {{ asset('frontend/images/favicon-2.png') }} " type="image/x-icon">
-<link rel="icon" href="{{ asset('frontend/images/favicon-2.png') }}" type="image/x-icon">
+<link rel="shortcut icon" href=" {{ asset('frontend/imageslocal//fav-icon.png') }} " type="image/x-icon">
+<link rel="icon" href="{{ asset('frontend/images/local/fav-icon.png') }}" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Prata|Rubik:300,400,500,700&amp;display=swap" rel="stylesheet">

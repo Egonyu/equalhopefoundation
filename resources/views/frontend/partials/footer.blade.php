@@ -77,7 +77,7 @@
                 </div>
             </div>                
             <div class="footer-bottom-two">
-                <div class="copy-right-text"><a href="templateshub.net">Templateshub</a><a class="theme-color-two" href="#">Goodsoul.</a></div>
+                <div class="copy-right-text"><a href="templateshub.net">Templateshub</a><a class="theme-color-two" href="#">EqualHopeFoundation.</a></div>
             </div>
         </div>
         <!--Scroll to top-->

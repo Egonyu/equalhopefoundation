@@ -36,7 +36,7 @@
                 <div class="wrapper-box">
                     <div class="logo-column">
                         <div class="logo-box">
-                            <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/logo-2-.png') }} " alt="" title=""></a></div>
+                            <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/local/logo-2.png') }} " alt="" title="" ></a></div>
                         </div>
                     </div>
                     <div class="right-column">
@@ -106,7 +106,7 @@
                 <div class="wrapper-box">
                     <div class="logo-column">
                         <div class="logo-box">
-                            <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/logo-3.png') }} " alt="" title=""></a></div>
+                            <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/local/logo-2.png') }} " alt="" title=""></a></div>
                         </div>
                     </div>
                     <div class="menu-column">
@@ -133,7 +133,7 @@
         <!-- Mobile Menu  -->
         <div class="mobile-menu style-two">
             <div class="menu-box">
-                <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/logo-3.png') }} " alt=""></a></div>
+                <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/local/logo-2.png') }} " alt=""></a></div>
                 <!-- Main Menu -->
                 <nav class="main-menu navbar-expand-xl navbar-dark">
                     <div class="navbar-header">
