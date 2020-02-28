@@ -1,9 +1,9 @@
     <!-- Main Header-->
     <header class="main-header style-two">
         <!-- Top bar -->
-        <div class="top-bar style-two">
-            <div class="auto-container">
-                <div class="wrapper-box">
+        <div class="top-bar style-two" style="background-color:#1fb58f">
+            <div class="auto-container" >
+                <div class="wrapper-box" >
                     <div class="left-content">
                         <div class="text">We only have what we give... <a href="#" class="donate-box-btn">Donate Now.</a></div>
                     </div>

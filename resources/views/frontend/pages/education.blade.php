@@ -1,4 +1,4 @@
-@extends('frontend.body')
+@extends('frontend.master')
 
 @section('content')
         <!-- Page Title -->
@@ -9,7 +9,7 @@
                 </div>
             </div>
         </section>
-    
+
         <!-- Cause Info -->
         <div class="cause-info">
             <div class="auto-container">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-    
+
         <!-- Causes Details -->
         <div class="sidebar-page-container cause-details">
             <div class="auto-container">
@@ -59,7 +59,7 @@
                         <div class="sec-title">
                             <h1>How can you contribute?</h1>
                             <div class="text">They cannot foresee the pain and On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.</div>
-                        </div>                        
+                        </div>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="feature-block-three">
@@ -93,7 +93,7 @@
                         </div>
                         <br>
                         <div class="sec-title">
-                            <h1>Recent donars</h1>                        
+                            <h1>Recent donars</h1>
                         </div>
                         <div class="recent-donars">
                             <div class="wrapper-box">
@@ -101,56 +101,56 @@
                                     <div class="image"><img src="images/resource/donor-6.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-7.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-8.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-9.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-10.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-11.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-12.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                                 <div class="donor-thumb">
                                     <div class="image"><img src="images/resource/donor-13.jpg" alt=""></div>
                                     <div class="content">
                                         <div class="text">Piyush Gabriel <br> Donated: $250</div>
-                                    </div>                        
+                                    </div>
                                     <span class="point"></span>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                     <h1>Donate us to achive our goal</h1>
                                     <div class="text">Beguiled and demoralized by the charms of pleasure of the moment, so by desire, <br>that they cannot foresee.</div>
                                 </div>
-    
+
                                 <form  action="#" class="donate-form default-form">
                                     <ul class="chicklet-list clearfix">
                                         <li>
@@ -193,9 +193,9 @@
                                             </div>
                                         </li>
                                     </ul>
-    
+
                                     <h3>Donor Information</h3>
-    
+
                                     <div class="contact-form">
                                         <div class="row clearfix">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -234,13 +234,13 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                            </div>  
-    
+                                            </div>
+
                                         </div>
                                     </div>
                                 </form>
                             </div>
-                                
+
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -274,7 +274,7 @@
                                             <div class="lower-content">
                                                 <!--Progress Levels-->
                                                 <div class="progress-levels style-two">
-                                                            
+
                                                     <!--Skill Box-->
                                                     <div class="progress-box wow fadeInRight animated" data-wow-delay="100ms" data-wow-duration="1500ms">
                                                         <div class="inner">
@@ -305,7 +305,7 @@
                                             <div class="lower-content">
                                                 <!--Progress Levels-->
                                                 <div class="progress-levels style-two">
-                                                            
+
                                                     <!--Skill Box-->
                                                     <div class="progress-box wow fadeInRight animated" data-wow-delay="100ms" data-wow-duration="1500ms">
                                                         <div class="inner">
@@ -352,7 +352,7 @@
                                         <div class="date">Jan 21, 2020, 10.00am</div>
                                         <h5><a href="#">Challenge events - Cardiff</a></h5>
                                     </div>
-                                </div>                           
+                                </div>
                             </div>
                             <!-- Newsletter Widget -->
                             <div class="sidebar-title">

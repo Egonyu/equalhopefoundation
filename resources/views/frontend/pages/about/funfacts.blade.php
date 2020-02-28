@@ -11,7 +11,7 @@
                 <div class="col-lg-4 counter-block-two wow fadeInUp" data-wow-delay="300ms">
                     <div class="inner-box">
                         <div class="count-box">
-                            <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="2.5">0</span><span class="affix">K</span>
+                            <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="20">0</span><span class="affix">Children</span>
                         </div>
                         <div class="text">Beneficiaries of <br>EqualHopeFoundation</div>
                     </div>
@@ -20,7 +20,7 @@
                 <div class="col-lg-4 counter-block-two wow fadeInUp" data-wow-delay="600ms">
                     <div class="inner-box">
                         <div class="count-box">
-                            <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="985">0</span><span class="affix"></span>
+                            <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="5">0</span><span class="affix"></span>
                         </div>
                         <div class="text">Happy Donators & <br>Contributors</div>
                     </div>
@@ -29,7 +29,7 @@
                 <div class="col-lg-4 counter-block-two wow fadeInUp" data-wow-delay="300ms">
                     <div class="inner-box">
                         <div class="count-box">
-                            <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="147">0</span><span class="affix"></span>
+                            <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="12">0</span><span class="affix"></span>
                         </div>
                         <div class="text">Lovely Volunteers <br>Involved</div>
                     </div>
