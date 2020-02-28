@@ -24,3 +24,4 @@ Route::get('sanitation', 'PagesController@sanitation')->name('sanitation');
 Route::get('volunteers', 'PagesController@volunteers')->name('volunteers');
 Route::get('relief', 'PagesController@relief')->name('relief');
 Route::get('contact', 'PagesController@contact')->name('contact');
+Route::get('about', 'PagesController@about')->name('about');

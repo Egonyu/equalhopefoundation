@@ -54,7 +54,7 @@
                     </div>
                     <div class="event-block-three">
                         <div class="inner-box">
-                            <div class="image"><a href="event-details.html"><img src="{{ asset('frontend/images/resource/event-7.jpg') }}" alt=""></a></div>
+                            <div class="image"><a href="event-details.html"><img src="{{ asset('frontend/images/local/bin.jpeg') }}" alt="" style="width:130px; height:150px;"></a></div>
                             <div class="content">
                                 <div class="toggle-btn"><span class="fa fa-plus"></span></div>
                                 <h4><a href="event-details.html">Medfest 2019 - Bristol</a></h4>

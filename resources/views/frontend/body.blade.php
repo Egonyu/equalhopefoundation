@@ -5,7 +5,7 @@
         <div class="swiper-container banner-slider">
             <div class="swiper-wrapper">
                 <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url( {{ asset('frontend/images/main-slider/greenleaf.jpg') }} );">
+                {{-- <div class="swiper-slide" style="background-image: url( {{ asset('frontend/images/main-slider/greenleaf.jpg') }} );">
                     <div class="content-outer">
                         <div class="content-box">
                             <div class="inner">
@@ -15,7 +15,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Slide Item -->
                 <div class="swiper-slide" style="background-image: url( {{ asset('frontend/images/main-slider/candle.jpg') }} );">
@@ -65,7 +65,7 @@
                             <div class="lower-content">
                                 <!--Progress Levels-->
                                 <div class="progress-levels style-two">
-                                            
+
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
@@ -93,7 +93,7 @@
                             <div class="lower-content">
                                 <!--Progress Levels-->
                                 <div class="progress-levels style-two">
-                                            
+
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
@@ -104,7 +104,7 @@
                                     </div>
                                 </div>
                                 <div class="wrapper-box">
-                                    <h4><a href="contact">Bolanile fight cancer</a></h4>
+                                    <h4><a href="contact">Provide for the needy children</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                             <div class="lower-content">
                                 <!--Progress Levels-->
                                 <div class="progress-levels style-two">
-                                            
+
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
@@ -137,91 +137,12 @@
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Feature Section -->
-    <section class="feature-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <h1>Live as a human being</h1>
-                <div class="text">The right way to live as a human being, Just help to those people who really need your help.</div>
-            </div>
-            <div class="row">
-                <!-- Feature Block Two -->
-                <div class="col-lg-3 col-md-6 feature-block-two">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <img src=" {{ asset('frontend/images/icons/icon-6.png') }} " alt="">
-                        </div>
-                        <h4>Become a Volunteer</h4>
-                        <div class="overlay" style="background-image: url( {{ asset('frontend/images/background/bg-2.jpg') }} );">
-                            <h4>Become a Volunteer</h4>
-                            <div class="text">Indignation and dislike mens all <br>beguiled demoralized. </div>
-                            <div class="link-btn"><a href="#" class="theme-btn btn-style-five"><span>More Details</span></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Feature Block Two -->
-                <div class="col-lg-3 col-md-6 feature-block-two">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <img src=" {{ asset('frontend/images/icons/icon-7.png') }} " alt="">
-                        </div>
-                        <h4>Shelter for Homeless</h4>
-                        <div class="overlay" style="background-image: url( {{ asset('frontend/images/background/bg-2.jpg') }} );">
-                            <h4>Shelter for Homeless</h4>
-                            <div class="text">Indignation and dislike mens all <br>beguiled demoralized. </div>
-                            <div class="link-btn"><a href="#" class="theme-btn btn-style-five"><span>More Details</span></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Feature Block Two -->
-                <div class="col-lg-3 col-md-6 feature-block-two">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <img src=" {{ asset('frontend/images/icons/icon-8.png') }} " alt="">
-                        </div>
-                        <h4>Make World Happier</h4>
-                        <div class="overlay" style="background-image: url( {{ asset('frontend/images/background/bg-2.jpg') }} );">
-                            <h4>Make World Happier</h4>
-                            <div class="text">Indignation and dislike mens all <br>beguiled demoralized. </div>
-                            <div class="link-btn"><a href="#" class="theme-btn btn-style-five"><span>More Details</span></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Feature Block Two -->
-                <div class="col-lg-3 col-md-6 feature-block-two">
-                    <div class="inner-box">
-                        <div class="icon-box">
-                            <img src=" {{ asset('frontend/images/icons/icon-9.png') }} " alt="">
-                        </div>
-                        <h4>Give Helthy Life</h4>
-                        <div class="overlay" style="background-image: url( {{ asset('frontend/images/background/bg-2.jpg') }} );">
-                            <h4>Give Helthy Life</h4>
-                            <div class="text">Indignation and dislike mens all <br>beguiled demoralized. </div>
-                            <div class="link-btn"><a href="#" class="theme-btn btn-style-five"><span>More Details</span></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="call-to-action">
-            <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="left-content">
-                        <h3>You have the power to bring happiness.</h3>
-                        <div class="text">Expound the actual teachings of the great explorer of the truth, the masterr of human happiness.</div>
-                    </div>
-                    <div class="right-content">
-                        <a href="#" class="theme-btn btn-style-five"><span>Meet Our Team</span></a>
-                    </div>
-                </div>
-            </div>                
-        </div>
-    </section>
+    @include('frontend.includes.features')
 
     <!-- Causes Section Three -->
     <section class="causes-section-three" style="background-image: url( {{ asset('frontend/images/background/bg-3.jpg') }} );">
@@ -237,7 +158,7 @@
                             <div class="content-wrapper">
                                 <!--Progress Levels-->
                                 <div class="progress-levels style-two">
-                                            
+
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
@@ -250,7 +171,7 @@
                                 <div class="content">
                                     <h4><a href="cause-details.html">Educations</a></h4>
                                     <div class="text">Foresee the pain and trouble that bound <br>to ensue and equal blame </div>
-                                    
+
                                     <div class="donate-btn"><a href="#" class="theme-btn btn-style-eight donate-box-btn"><span>Donate Now</span></a></div>
                                 </div>
                             </div>
@@ -265,7 +186,7 @@
                             <div class="content-wrapper">
                                 <!--Progress Levels-->
                                 <div class="progress-levels style-two">
-                                            
+
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
@@ -276,9 +197,9 @@
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <h4><a href="cause-details.html">Make somalians happy</a></h4>
+                                    <h4><a href="cause-details.html">Give Naguru Children Hope</a></h4>
                                     <div class="text">Foresee the pain and trouble that bound <br>to ensue and equal blame </div>
-                                    
+
                                     <div class="donate-btn"><a href="#" class="theme-btn btn-style-eight donate-box-btn"><span>Donate Now</span></a></div>
                                 </div>
                             </div>
@@ -293,7 +214,7 @@
                             <div class="content-wrapper">
                                 <!--Progress Levels-->
                                 <div class="progress-levels style-two">
-                                            
+
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
@@ -306,7 +227,7 @@
                                 <div class="content">
                                     <h4><a href="cause-details.html">Make Children happy</a></h4>
                                     <div class="text">Foresee the pain and trouble that bound <br>to ensue and equal blame </div>
-                                    
+
                                     <div class="donate-btn"><a href="#" class="theme-btn btn-style-eight donate-box-btn"><span>Donate Now</span></a></div>
                                 </div>
                             </div>
@@ -317,80 +238,10 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section class="projects-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <h1>Projects we have done</h1>
-                <div class="text">The right way to live as a human being, Just help to those people really need your help.</div>
-            </div>
-            <div class="row">
-                <!-- Project Block One -->
-                <div class="col-lg-6 col-md-12 project-block-one">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src=" {{ asset('frontend/images/resource/project-1.jpg') }} " alt="">
-                            <div class="icon-box">
-                                <span class="flaticon-maid"></span>
-                            </div>
-                        </div>
-                        <h3><a href="#">Children</a></h3>
-                    </div>
-                </div>
-                <!-- Project Block One -->
-                <div class="col-lg-6 col-md-12 project-block-one">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src=" {{ asset('frontend/images/resource/project-2.jpg') }} " alt="">
-                            <div class="icon-box">
-                                <span class="flaticon-maid"></span>
-                            </div>
-                        </div>
-                        <h3><a href="#">Women & Girls</a></h3>
-                    </div>
-                </div>
-                <!-- Project Block One -->
-                <div class="col-lg-4 col-md-6 project-block-one">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src=" {{ asset('frontend/images/resource/project-3.jpg') }} " alt="">
-                            <div class="icon-box">
-                                <span class="flaticon-maid"></span>
-                            </div>
-                        </div>
-                        <h3><a href="#">Education</a></h3>
-                    </div>
-                </div>
-                <!-- Project Block One -->
-                <div class="col-lg-4 col-md-6 project-block-one">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src=" {{ asset('frontend/images/resource/project-4.jpg') }} " alt="">
-                            <div class="icon-box">
-                                <span class="flaticon-maid"></span>
-                            </div>
-                        </div>
-                        <h3><a href="#">Hunger</a></h3>
-                    </div>
-                </div>
-                <!-- Project Block One -->
-                <div class="col-lg-4 col-md-6 project-block-one">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="{{ asset('frontend/images/resource/project-5.jpg') }}" alt="">
-                            <div class="icon-box">
-                                <span class="flaticon-maid"></span>
-                            </div>
-                        </div>
-                        <h3><a href="#">Medical</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('frontend.includes.projects')
 
     @include('frontend.includes.testimonials')
-    
+
     @include('frontend.includes.events')
 
     <!-- Payment Donate Section -->
@@ -423,7 +274,7 @@
                     <div class="form-group"><input type="text" placeholder="Custom Amount"></div>
                     <button class="theme-btn btn-style-five" type="submit"><span>Donate Now</span></button>
                 </div>
-                    
+
             </form>
         </div>
     </section>
@@ -437,13 +288,13 @@
                         <div class="swiper-container volunteer-image">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="author-thumb"><img src=" {{ asset('frontend/images/resource/image-12.jpg') }} " alt=""></div>
+                                    <div class="author-thumb"><img src=" {{ asset('frontend/images/local/classes.jpeg') }} " alt=""></div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="author-thumb"><img src=" {{ asset('frontend/images/resource/image-12.jpg') }} " alt=""></div>
+                                    <div class="author-thumb"><img src=" {{ asset('frontend/images/local/mother-bathing.jpeg') }} " alt=""></div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="author-thumb"><img src=" {{ asset('frontend/images/resource/image-12.jpg') }} " alt=""></div>
+                                    <div class="author-thumb"><img src=" {{ asset('frontend/images/local/naguru.jpeg') }} " alt=""></div>
                                 </div>
                             </div>
                             <div class="swiper-nav-button">

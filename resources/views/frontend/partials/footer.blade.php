@@ -7,7 +7,7 @@
                     <div class="col-lg-3 col-md-6 about-widget-two footer-widget">
                         <h4 class="widget-title">About</h4>
                         <div class="text">The great explorer of the truth, theat master builders off human happiness no one rejects, dislikes, or avoids all pleasures itself, because it pleasures rationally encounter.</div>
-                        <div class="logo"><a href="index-2.html"><img src=" {{ asset('frontend/images/logo-2.#ffbf00') }} " alt=""></a></div>              
+                        <div class="logo"><a href="{{ route('/') }}"><img src=" {{ asset('frontend/images/logo-2.#ffbf00') }} " alt=""></a></div>
                     </div>
                     <!-- Link Widget -->
                     <div class="col-lg-3 col-md-6 link-widget-two footer-widget">
@@ -19,7 +19,7 @@
                             <li><a href="#">Trending News</a></li>
                             <li><a href="#">Causes</a></li>
                             <li><a href="#">Contact Us</a></li>
-                        </ul>                
+                        </ul>
                     </div>
                     <!-- Post Widget -->
                     <div class="col-lg-3 col-md-6 post-widget footer-widget">
@@ -44,40 +44,40 @@
                             <div class="location-point">
                                 <div class="content">
                                     <div class="text">54 Berrick Street, <br>Boston 02115. </div>
-                                </div>                        
+                                </div>
                                 <span class="point"></span>
                             </div>
                             <div class="location-point">
                                 <div class="content">
                                     <div class="text">54 Berrick Street, <br>Boston 02115.</div>
-                                </div>                        
+                                </div>
                                 <span class="point"></span>
                             </div>
                             <div class="location-point">
                                 <div class="content">
                                     <div class="text">54 Berrick Street, <br>Boston 02115.</div>
-                                </div>                        
+                                </div>
                                 <span class="point"></span>
                             </div>
                             <div class="location-point">
                                 <div class="content">
                                     <div class="text">54 Berrick Street, <br>Boston 02115.</div>
-                                </div>                        
+                                </div>
                                 <span class="point"></span>
                             </div>
                             <div class="location-point">
                                 <div class="content">
                                     <div class="text">54 Berrick Street, <br>Boston 02115.</div>
-                                </div>                        
+                                </div>
                                 <span class="point"></span>
                             </div>
                         </div>
                         <div class="link-btn"><a href="#"><span class="flaticon-next"></span>Contact Us</a></div>
                     </div>
                 </div>
-            </div>                
+            </div>
             <div class="footer-bottom-two">
-                <div class="copy-right-text"><a href="templateshub.net">Templateshub</a><a class="theme-color-two" href="#">EqualHopeFoundation.</a></div>
+                <div class="copy-right-text"><a href="{{ route('/') }}">Home</a><a class="theme-color-two" href="{{ route('about') }}">EqualHopeFoundation.</a></div>
             </div>
         </div>
         <!--Scroll to top-->
